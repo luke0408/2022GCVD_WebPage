@@ -1,0 +1,18 @@
+* {
+  outline-style: solid;
+  outline-color: black;
+
+  color: black;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #023D31;
+}
+
+div {
+  padding: 0px;
+  outline-style: solid;
+  color: white;
+}
