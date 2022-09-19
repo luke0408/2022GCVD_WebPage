@@ -4,19 +4,28 @@
   --header-shadow: calc(var(--header-height)/10);
 }
 
+.nav {
+  outline-style: solid;
+  outline-color: black;
+
+  width: var(--max-width);
+  height: var(--header-height);
+}
+
 .header {
   outline-style: solid;
   outline-color: black;
 
   color: black;
 
-  position: absolute;
-  z-index: -1;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
 
   width: var(--max-width);
-  height: var(--header-height);
-  left: 0px;
-  top: 0px;
+  height: calc(var(--max-width) * 0.95);
+
+  padding: calc(var(--header-height) * 0.27) calc(var(--max-width) * 0.05);
 
   background-color: #E7ED28;
   box-shadow: 0px var(--header-shadow) 0px rgba(0, 0, 0, 0.25);
@@ -25,13 +34,10 @@
 .navigation {
   color: black;
 
-  position: absolute;
-
+  cursor: pointer;
 
   width: 1270px;
   height: 50px;
-  left: 76px;
-  top: 40px;
 
   background-color: aquamarine;
 }
