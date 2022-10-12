@@ -18,6 +18,10 @@ div.header{
   justify-content: space-around;
 }
 
-body#projects_page * .tag{
-  color: #FFFFFF;
+div.navbar-right .tag{
+  color: #012019;
+}
+
+body#home_page a{
+  color: #012019;
 }

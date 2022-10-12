@@ -1,13 +1,18 @@
 @font-face {
   font-family: 'Noto Sans KR', sans-serif;
   src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-} 
+}
+
 
 a.tag {
-  font-family: 'Sculpin', 'Noto Sans KR', sans-serif;
-  font-weight: 600;
-  padding-right: 10px;
-  color: #012019;
+  font-family: 'Sculpin';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .tag_drop-shadow {
@@ -15,7 +20,7 @@ a.tag {
 }
 
 a.tag_focus {
-  font-family: 'Sculpin', 'Noto Sans KR', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 600;
   margin-right: 10px;
   padding-bottom: 2px;
