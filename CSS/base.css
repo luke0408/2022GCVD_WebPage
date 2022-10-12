@@ -6,6 +6,7 @@ body {
 
 a {
   cursor: pointer;
+  text-decoration: none;
 }
 
 .header {
@@ -17,6 +18,11 @@ a {
 }
 
 .container {
+  margin: 0 auto;
   max-width: 1200px;
   width: 100%;
+}
+
+body#projects_page{
+  background-color: #002A21;
 }

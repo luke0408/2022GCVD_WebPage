@@ -1,0 +1,21 @@
+.hi-276{
+  height: 225px;
+}
+
+div#project_main .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+div.title_box{
+  position: relative;
+  height: 96px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+div.title_box img{
+  position: absolute;
+  bottom: 0;
+}
