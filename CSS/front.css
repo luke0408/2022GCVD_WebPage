@@ -3,9 +3,8 @@
   src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 }
 
-
 a.tag {
-  font-family: 'Sculpin';
+  font-family: "sculpin",sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
@@ -29,7 +28,7 @@ a.tag_focus {
 }
 
 div.title_tag {
-  font-family: 'Sculpin';
+  font-family: "sculpin",sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 80px;

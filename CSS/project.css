@@ -1,5 +1,5 @@
-.hi-276{
-  height: 225px;
+body#projects_page{
+  background-color: #002A21;
 }
 
 div#project_main .container{
@@ -8,18 +8,18 @@ div#project_main .container{
   justify-content: start;
 }
 
-div.title_box{
+a.title_box{
   position: relative;
   height: 96px;
   margin-bottom: 8px;
   cursor: pointer;
 }
 
-div.title_box img{
+a.title_box img{
   position: absolute;
   bottom: 0;
 }
 
-a.tag{
+body#projects_page * a.tag{
   color: #FFFFFF;
 }
