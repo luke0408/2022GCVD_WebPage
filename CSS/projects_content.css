@@ -30,6 +30,7 @@ div.project-grid{
   gap: 13px;
   row-gap: 29px;
   grid-template-columns: repeat(4, 270px);
+  padding-bottom: 59px;
 }
 
 div.project-grid .project-card{
