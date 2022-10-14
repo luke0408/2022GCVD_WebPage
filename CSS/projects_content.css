@@ -1,30 +1,30 @@
-body#projects_content-page{
+body#projects_content-page {
   background-color: #FFFFFF;
 }
 
-body#projects_content-page .header{
+body#projects_content-page .header {
   background-color: #FFFFFF;
 }
 
-body#projects_content-page * a.tag{
+body#projects_content-page * a.tag {
   color: #002A21;
 }
 
-div.projects-All * .title_tag{
+div.projects-All * .title_tag {
   color: #023D31;
 }
 
-body#projects_content-page * .title_box{
+body#projects_content-page * .title_box {
   position: relative;
   margin-bottom: 8px;
   cursor: pointer;
 }
 
-body#projects_content-page * img{
+body#projects_content-page * img {
   bottom: 0;
 }
 
-div.project-grid{
+div.project-grid {
   align-items: center;
   display: grid;
   gap: 13px;
@@ -33,32 +33,32 @@ div.project-grid{
   padding-bottom: 59px;
 }
 
-div.project-grid .project-card{
+div.project-grid .project-card {
   position: relative;
 }
 
-div.project-card img{
+div.project-card img {
   padding-bottom: 13px;
 }
 
 div.project-card .text-box .name {
   font-family: 'Sculpin';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 14px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
 
-padding-bottom: 3px;
+  padding-bottom: 3px;
 
-color: #023D31;
+  color: #023D31;
 }
 
-div.project-card .text-box .project-title{
+div.project-card .text-box .project-title {
   font-family: 'Sculpin';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
 
-color: #023D31;
+  color: #023D31;
 }

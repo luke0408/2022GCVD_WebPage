@@ -8,14 +8,16 @@ div#project_main .container{
   justify-content: start;
 }
 
-a.title_box{
+div.title_box{
   position: relative;
   height: 96px;
   margin-bottom: 8px;
-  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 
-a.title_box img{
+div.title_box img{
   position: absolute;
   bottom: 0;
 }

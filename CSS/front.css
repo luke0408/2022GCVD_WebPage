@@ -4,7 +4,7 @@
 }
 
 a.tag {
-  font-family: "sculpin",sans-serif;
+  font-family: "sculpin", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
@@ -27,16 +27,14 @@ a.tag_focus {
   border-bottom: 1px #EDEE00 solid;
 }
 
-div.title_tag {
-  font-family: "sculpin",sans-serif;
+a.title_tag {
+  font-family: "sculpin", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 80px;
   line-height: 96px;
-  /* identical to box height */
 
-  display: flex;
-  align-items: center;
+  margin-right: auto;
 
   color: #FFFFFF;
 }
