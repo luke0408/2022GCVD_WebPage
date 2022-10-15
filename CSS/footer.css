@@ -1,0 +1,18 @@
+div.footer {
+  width: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+div.footer .item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 158.02%;
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}

@@ -18,10 +18,25 @@ div.title_box{
 }
 
 div.title_box img{
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  width: 1120px;
+  height: 41px;
 }
 
 body#projects_page * a.tag{
   color: #FFFFFF;
+}
+
+div.title_boxs{
+  position: relative;
+  height: 70px;
+  margin-bottom: 98px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.title_boxs img{
+  position: absolute;
+  bottom: 0;
+  left: 20px;
 }

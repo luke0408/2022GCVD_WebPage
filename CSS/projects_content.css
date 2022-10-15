@@ -11,17 +11,17 @@ body#projects_content-page * a.tag {
 }
 
 div.projects-All * .title_tag {
+  font-family: 'Sculpin';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
   color: #023D31;
-}
-
-body#projects_content-page * .title_box {
-  position: relative;
-  margin-bottom: 8px;
-  cursor: pointer;
-}
-
-body#projects_content-page * img {
-  bottom: 0;
 }
 
 div.project-grid {
@@ -37,11 +37,11 @@ div.project-grid .project-card {
   position: relative;
 }
 
-div.project-card img {
+a.project-card img {
   padding-bottom: 13px;
 }
 
-div.project-card .text-box .name {
+a.project-card .text-box .name {
   font-family: 'Sculpin';
   font-style: normal;
   font-weight: 500;
@@ -53,7 +53,7 @@ div.project-card .text-box .name {
   color: #023D31;
 }
 
-div.project-card .text-box .project-title {
+a.project-card .text-box .project-title {
   font-family: 'Sculpin';
   font-style: normal;
   font-weight: 700;
