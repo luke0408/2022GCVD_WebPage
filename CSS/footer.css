@@ -1,7 +1,9 @@
 div.footer {
-  width: auto;
+  position: absolute;
+  bottom: 1.25rem;
   max-width: 1200px;
-  margin: 0 auto;
+  left: 2rem;
+  right: 2rem;
 }
 
 div.footer .container{

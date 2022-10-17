@@ -2,6 +2,13 @@ body#projects_page{
   background-color: #002A21;
 }
 
+div#project_main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
 div#project_main .container{
   display: flex;
   flex-direction: column;
@@ -39,5 +46,15 @@ div.title_boxs{
 
 div.title_boxs img {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
+}
+
+div.back_to_top{
+  position: fixed;
+  cursor: pointer;
+  width: 73px;
+  height: 73px;
+  bottom: 1.7rem;
+  right: 1.6rem;
+  z-index: 30;
 }

@@ -1,0 +1,184 @@
+body#about_page {
+  background-color: #FFFFFF;
+}
+
+body#about_page .header {
+  background-color: #023D31;
+}
+
+body#about_page * .tag {
+  color: #FFFFFF;
+}
+
+body#about_page * .focus {
+  color: #EDFF00;
+}
+
+body#about_page .banner {
+  width: 100vw;
+  object-fit: contain;
+}
+
+div#about_text .container2 {
+  margin: 160px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.right_text {
+  font-family: 'Sculpin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+div.left_text {
+  max-width: 543px;
+}
+
+div.left_text .sub_title {
+  font-family: 'Sculpin';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+div.left_text div {
+  padding-bottom: 49px;
+}
+
+div.left_text .sub_text-kor {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+
+  color: #023D31;
+}
+
+div.left_text .sub_text-eng {
+  font-family: 'Sculpin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #023D31;
+}
+
+div.sub_text-kor .b-kor {
+  font-family: 'Sculpin';
+}
+
+div#about_main{
+  background: #000000;
+}
+
+div#about_main * .content{
+  padding-top: 220px;
+}
+
+div.content .content-box {
+  width: 1060px;
+  margin: 41px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.content .content-box .text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.content-box .title-one{
+  font-family: 'Sculpin';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+margin-bottom: 39px;
+}
+
+div.content-box .text-tag {
+  font-family: 'Noto Sans CJK KR';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #EDFF00;
+
+margin-bottom: 44px;
+}
+
+div.content-box .text-content {
+  font-family: 'Noto Sans CJK KR';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #D9D9D9;
+
+margin-bottom: 133px;
+}
+
+div.content-box .title-two{
+  font-family: 'Sculpin';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #EDFF00;
+
+margin-bottom: 42px;
+}
+
+div.content-box .text-tag2 {
+  font-family: 'Noto Sans CJK KR';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}

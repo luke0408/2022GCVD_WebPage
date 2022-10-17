@@ -1,11 +1,17 @@
 div.main .container{
-  align-items: center;
   height: 800px;
-  position: relative;
+  position: absolute;
   background-image: url('../images/gifs/main_logo.gif');
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+div.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 div.content {
