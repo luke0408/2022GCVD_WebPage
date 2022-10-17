@@ -4,7 +4,13 @@ div.footer {
   margin: 0 auto;
 }
 
-div.footer .item {
+div.footer .contaner{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+
+div.footer *.item {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;

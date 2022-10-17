@@ -1,0 +1,29 @@
+div.main .container{
+  align-items: center;
+  height: 900px;
+  position: relative;
+  background-image: url('../images/gifs/main_logo.gif');
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.content {
+  height: 100%;
+  background-image: url('../images/gifs/main_title.gif');
+  background-position: center 15%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+div.content .title_box {
+  position: absolute;
+  width: 60%;
+  margin: 0 auto;
+  left: 20%;
+  top: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -8,19 +8,23 @@ div#project_main .container{
   justify-content: start;
 }
 
-div.title_box{
+div#project_main * .title_box{
   position: relative;
   height: 96px;
   margin-bottom: 8px;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
 }
 
-div.title_box img{
+div#project_main  * .title_box img{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+div.projects-All .title_box{
   position: relative;
-  width: 1120px;
-  height: 41px;
+  padding: 0;
+  height: 135px;
+  margin-bottom: 7px;
 }
 
 body#projects_page * a.tag{
@@ -29,14 +33,11 @@ body#projects_page * a.tag{
 
 div.title_boxs{
   position: relative;
-  height: 70px;
+  height: 96px;
   margin-bottom: 98px;
-  display: flex;
-  flex-direction: column;
 }
 
-div.title_boxs img{
+div.title_boxs img {
   position: absolute;
   bottom: 0;
-  left: 20px;
 }

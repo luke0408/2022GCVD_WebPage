@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #EDFF00;
+  background-color: #E7ED28;
 }
 
 a {
@@ -32,6 +32,10 @@ a {
 
 .hi-84{
   height: 84px;
+}
+
+.hi-322{
+  height: 322px;
 }
 
 .p-b-188{

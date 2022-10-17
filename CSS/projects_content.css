@@ -11,18 +11,9 @@ body#projects_content-page * a.tag {
 }
 
 div.projects-All * .title_tag {
-  font-family: 'Sculpin';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 50px;
-  line-height: 60px;
-  /* identical to box height */
-
-  display: flex;
-  align-items: center;
-
+  cursor: pointer;
   color: #023D31;
-}
+} 
 
 div.project-grid {
   align-items: center;
