@@ -1,6 +1,6 @@
 div.main .container{
   align-items: center;
-  height: 900px;
+  height: 800px;
   position: relative;
   background-image: url('../images/gifs/main_logo.gif');
   background-position: center center;
@@ -22,7 +22,7 @@ div.content .title_box {
   width: 60%;
   margin: 0 auto;
   left: 20%;
-  top: 60%;
+  top: 64%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

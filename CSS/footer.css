@@ -4,7 +4,7 @@ div.footer {
   margin: 0 auto;
 }
 
-div.footer .contaner{
+div.footer .container{
   display: flex;
   justify-content: space-between;
   margin-bottom: 75px;
