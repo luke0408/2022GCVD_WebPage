@@ -21,6 +21,11 @@ a {
   z-index: 30;
 }
 
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1200px;
@@ -31,6 +36,13 @@ a {
 .container2 {
   margin: 0 auto;
   max-width: 1120px;
+  width: 100%;
+  z-index: 10;
+}
+
+.container3 {
+  margin: 0 auto;
+  max-width: 900px;
   width: 100%;
   z-index: 10;
 }
