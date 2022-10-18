@@ -1,18 +1,34 @@
 body#projects_page{
   background-color: #002A21;
+  z-index: 1;
+}
+
+.gif {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 9;
+}
+
+a.all {
+  width: min-content;
+  margin-right: auto;
 }
 
 div#project_main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 60vh;
-}
-
-div#project_main .container{
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: start;
+}
+
+div#project_main .container{
+  margin: auto;
 }
 
 div#project_main * .title_box{

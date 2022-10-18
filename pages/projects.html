@@ -1,51 +1,57 @@
 <!DOCTYPE html>
 <html>
-  <head lang="ko">
-    <meta charset="UTF-8">
-    <link href="../CSS/base.css" rel="stylesheet">
-    <link href="../CSS/navbar.css" rel="stylesheet">
-    <link href="../CSS/front.css" rel="stylesheet">
-    <link href="../CSS/project.css" rel="stylesheet">
-    <link href="../CSS/footer.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/kto8tjd.css">
-  </head>
-  <body id="projects_page">
-    <div class="header">
-      <div class="container">
-        <div class="navbar" id="home_navbar">
-          <div class="navbar-left">
-            <a class="home_logo" href="../index.html">
-              <img src="../images/icons/GCVD_LOGO.png" />
-            </a>
-          </div>
-          <div class="navbar-right">
-            <a class="tag" href="./page_about.html">About Us</a>
-            <a class="tag_focus" href="./projects.html">전시 작품</a>
-            <a class="tag" href="./designers.html">Designers</a>
-          </div>
+
+<head lang="ko">
+  <meta charset="UTF-8">
+  <link href="../CSS/base.css" rel="stylesheet">
+  <link href="../CSS/navbar.css" rel="stylesheet">
+  <link href="../CSS/front.css" rel="stylesheet">
+  <link href="../CSS/project.css" rel="stylesheet">
+  <link href="../CSS/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/kto8tjd.css">
+</head>
+
+<body id="projects_page">
+  <div id="back" class="gif"></div>
+  <div class="header">
+    <div class="container">
+      <div class="navbar" id="home_navbar">
+        <div class="navbar-left">
+          <a class="home_logo" href="../index.html">
+            <img src="../images/icons/GCVD_LOGO.png" />
+          </a>
+        </div>
+        <div class="navbar-right">
+          <a class="tag" id="aoubt" href="./page_about.html">About Us</a>
+          <a class="tag_focus" id="project" href="./projects.html">전시 작품</a>
+          <a class="tag" id="designers" href="./designers.html">Designers</a>
         </div>
       </div>
     </div>
-    <div class="hi-276"></div>
-    <div id="project_main">
-      <div class="container">
-        <div class="title_box">
-          <a class="title_tag all" href="./projects-all.html">All</a>
-          <img src="../images/icons/Vector 30.png" />
-        </div>
-        <div class="title_box">
-          <a class="title_tag uxui" href="./projects-uxui_branding.html">UX/UI & Branding</a>
-          <img src="../images/icons/Vector 31.png" />
-        </div>
-        <div class="title_box">
-          <a class="title_tag character" href="./projects-illustration_character.html">Illustration & Character</a>
-          <img src="../images/icons/Vector 32.png" />
-        </div>
-        <div class="title_box">
-          <a class="title_tag media" href="./projects-media_graphic.html">Media & Graphic</a>
-          <img src="../images/icons/Vector 33.png" />
-        </div>
+  </div>
+  <div id="project_main">
+    <div class="container">
+      <div class="title_box">
+        <a class="title_tag" id="all" href="./projects-all.html">All</a>
+        <img src="../images/icons/Vector 30.png" />
+      </div>
+      <div class="title_box">
+        <a class="title_tag" id="uxui" href="./projects-uxui_branding.html">UX/UI & Branding</a>
+        <img src="../images/icons/Vector 31.png" />
+      </div>
+      <div class="title_box">
+        <a class="title_tag" id="character" href="./projects-illustration_character.html">Illustration & Character</a>
+        <img src="../images/icons/Vector 32.png" />
+      </div>
+      <div class="title_box">
+        <a class="title_tag" id="media" href="./projects-media_graphic.html">Media & Graphic</a>
+        <img src="../images/icons/Vector 33.png" />
       </div>
     </div>
-  </body>
+  </div>
+  <script src="../js/projects-title.js"></script>
+  <script src="../js/projects-text.js"></script>
+  <script src="../js/pade-page.js"></script>
+</body>
+
 </html>
