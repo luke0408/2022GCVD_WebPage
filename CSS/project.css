@@ -54,7 +54,7 @@ div.back_to_top{
   cursor: pointer;
   width: 73px;
   height: 73px;
-  bottom: 1.7rem;
+  bottom: 7vh;
   right: 1.6rem;
   z-index: 30;
 }

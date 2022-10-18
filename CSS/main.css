@@ -15,7 +15,10 @@ div.main{
 }
 
 body#home_page .footer{
-  max-width: 100%;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 2rem;
+  right: 2rem;
 }
 
 div.content {
