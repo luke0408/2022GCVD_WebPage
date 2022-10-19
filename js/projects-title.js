@@ -76,12 +76,9 @@ titleList.forEach(function callback(element, index) {
     let tagList = titleList.filter((target) => target !== element)
     hover(path[index], tagList);
     element.style.color = "#EDFF00";
-  }
-});
-
-titleList.forEach(function callback(element, index) {
+  };
   element.onmouseout = function(){
     unhover(titleList);
     element.style.color = "#FFFFFF";
-  }
+  };
 });

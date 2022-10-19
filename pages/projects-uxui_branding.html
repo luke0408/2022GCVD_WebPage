@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/kto8tjd.css">
   </head>
-  <body id="projects_content-page">
+  <body id="projects_content-page" class="uiux">
     <div class="header">
       <div class="container">
         <div class="navbar" id="home_navbar">
@@ -496,14 +496,20 @@
           <img src="../images/icons/Back_to_top.png" />
         </div>
         <img class="p-b-188" src="../images/icons/Vector-T_buttom.png" />
-        <div class="title_boxs character" href="projects-main.html">
-          <div class="title_tag" href="./projects-illustration_character.html">Illustration & Character</div>
-          <img class="character" src="../images/icons/Vector-character_XL.png" />
+        <div class="title_boxs">
+        <div class="title_tag" onclick="location.href='./projects-illustration_character.html';
+        window.localStorage.setItem('tag', 'ill');">
+          Illustration & Character
         </div>
-        <div class="title_boxs" href="projects-main.html">
-          <div class="title_tag" href="./projects-media_graphic.html">Media & Graphic</div>
-          <img class="media" src="../images/icons/Vector-Media_XL.png" />
+        <img class="character" src="../images/icons/Vector-character_XL.png" />
+      </div>
+      <div class="title_boxs">
+        <div class="title_tag" onclick="location.href='./projects-media_graphic.html';
+        window.localStorage.setItem('tag', 'media');">
+          Media & Graphic
         </div>
+        <img class="media" src="../images/icons/Vector-Media_XL.png" />
+      </div>
       </div>
       <div class="hi-322"></div>
       <div class="footer">

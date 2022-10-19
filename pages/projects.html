@@ -22,9 +22,15 @@
           </a>
         </div>
         <div class="navbar-right">
-          <a class="tag" id="aoubt" href="./page_about.html">About Us</a>
-          <a class="tag_focus" id="project" href="./projects.html">전시 작품</a>
-          <a class="tag" id="designers" href="./designers.html">Designers</a>
+          <div class="tag-box">
+            <a class="tag about" href="./page_about.html">About Us</a>
+          </div>
+          <div class="tag-box">
+            <a class="tag_focus" id="project" href="./projects.html">전시 작품</a>
+          </div>
+          <div class="tag-box">
+            <a class="tag designers" href="./designers.html">Designers</a>
+          </div>
         </div>
       </div>
     </div>
@@ -32,19 +38,30 @@
   <div id="project_main">
     <div class="container">
       <div class="title_box">
-        <a class="title_tag" id="all" href="./projects-all.html">All</a>
+        <a class="title_tag" id="all" href="./projects-all.html" onclick="window.localStorage.setItem('tag', 'all')">
+          All
+        </a>
         <img src="../images/icons/Vector 30.png" />
       </div>
       <div class="title_box">
-        <a class="title_tag" id="uxui" href="./projects-uxui_branding.html">UX/UI & Branding</a>
+        <a class="title_tag" id="uxui" href="./projects-uxui_branding.html"
+          onclick="window.localStorage.setItem('tag', 'uxui')">
+          UX/UI & Branding
+        </a>
         <img src="../images/icons/Vector 31.png" />
       </div>
       <div class="title_box">
-        <a class="title_tag" id="character" href="./projects-illustration_character.html">Illustration & Character</a>
+        <a class="title_tag" id="character" href="./projects-illustration_character.html"
+          onclick="window.localStorage.setItem('tag', 'ill')">
+          Illustration & Character
+        </a>
         <img src="../images/icons/Vector 32.png" />
       </div>
       <div class="title_box">
-        <a class="title_tag" id="media" href="./projects-media_graphic.html">Media & Graphic</a>
+        <a class="title_tag" id="media" href="./projects-media_graphic.html"
+          onclick="window.localStorage.setItem('tag', 'media')">
+          Media & Graphic
+        </a>
         <img src="../images/icons/Vector 33.png" />
       </div>
     </div>
