@@ -26,26 +26,10 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 const docData = {
-  index: 0,
-  name: "",
-  student_number: 123,
-  tag: "",
-  thumbnail: "https://drive.google.com/uc?export=view&id=",
-  header: "https://drive.google.com/uc?export=view&id=",
-  content: "https://drive.google.com/uc?export=view&id=",
-  profile: "https://drive.google.com/uc?export=view&id=",
-  video: "",
-  gif: "",
-  phon: "",
-  email: "",
-  title: "",
-  sub_tilte: "",
-  text: "",
-  team: false,
 };
 
 function addDate() {
-  const target = doc(db, "projects_main", "강민서");
+  const target = doc(db, "projects_main", "곽동규");
   setDoc(target, docData);
 }
 
