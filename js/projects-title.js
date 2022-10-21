@@ -13,6 +13,16 @@ const path = [
   "https://media.githubusercontent.com/media/luke0408/2022GCVD_WebPage/main/images/gifs/Back-media.gif"
 ];
 
+function preloading (imageArray) {
+  let n = imageArray.length;
+  for (let i = 0; i < n; i++) {
+      let img = new Image();
+      img.src = imageArray[i];
+  }
+}
+
+preloading(path);
+
 function hover(path_url, tagList){
   body.style.backgroundImage = `url(${path_url})`;
   body.style.backgroundColor = "#000000";

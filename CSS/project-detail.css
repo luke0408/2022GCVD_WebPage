@@ -1,4 +1,16 @@
-div#project-detail * .container{
+div#project-detail .container{
+  position: relative;
   max-width: 1120px;
+  margin: 0 auto;
 }
 
+div#project-detail .container .banner {
+  width: 1120px;
+  height: 627px;
+}
+
+div.container .space-between {
+  position: relative;
+  max-width: 1120px;
+  width: 100%;
+}
