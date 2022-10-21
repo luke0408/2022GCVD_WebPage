@@ -17,19 +17,124 @@ body#watiting .container {
   justify-content: center;
   align-items: center;
   margin: auto;
-  height: 80vh;
-  max-height: 720px;
-  max-width: 720px;
-  width: 50vw;
-  border: 5px solid black;
+  width: 720px;
 }
 
 body#watiting .container .title {
   font-family: 'Noto Sans KR';
   font-style: normal;
   font-weight: 900;
-  font-size: 5rem;
-  line-height: 7.2rem;
-  align-items: center;
+  font-size: 50px;
+  line-height: 72px;
+
   color: #023D31;
+
+  margin-left: 70px;
+}
+
+div.container .instar {
+  border: 2px solid #000000;
+  border-radius: 20px;
+  display: flex;
+  padding: 12px 42px 14px 31px;
+  justify-content: center;
+  align-items: center;
+}
+
+a.instar .instar-text{
+  font-family: 'Sculpin';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+a.instar img {
+  width: 27px;
+  height: 27px;
+  margin-right: 28px;
+}
+
+body#watiting .container .text {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+
+  margin-bottom: 112px;
+}
+
+div.container .text-box {
+  align-self: start;
+  margin-top: 55px;
+}
+
+div.text-box .sub-title{
+  font-family: 'Sculpin';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+
+color: #000000;
+
+margin-top: 24px;
+}
+
+div.text-box .sub-text {
+  font-family: 'Sculpin';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+
+color: #000000;
+
+margin-top: 14px;
+}
+
+div.text-box .date{
+  font-family: 'Sculpin';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  
+  color: #000000;
+
+  margin-top: 14px;
+}
+
+div.text-box .schedule {
+  display: flex;
+  width: 305px;
+  margin-top: 9px;
+}
+
+div.schedule .schedule-box{
+  font-family: 'Sculpin';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
 }
