@@ -1,0 +1,4 @@
+url: 'https://2022gcvd.com/' # your main domain
+baseurl: 'https://2022gcvd.com/pages/' # if you're using custom domain keep this blank example: baseurl: ''
+
+theme: jekyll-theme-hacker
