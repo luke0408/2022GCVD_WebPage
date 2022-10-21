@@ -28,8 +28,6 @@ body#watiting .container .title {
   line-height: 72px;
 
   color: #023D31;
-
-  margin-left: 70px;
 }
 
 div.container .instar {
@@ -41,18 +39,17 @@ div.container .instar {
   align-items: center;
 }
 
-a.instar .instar-text{
+a.instar .instar-text {
   font-family: 'Sculpin';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 36px;
-/* identical to box height */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
 
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 
-color: #000000;
+  color: #000000;
 
 }
 
@@ -71,7 +68,7 @@ body#watiting .container .text {
   display: flex;
   align-items: center;
   text-align: center;
-  
+
   color: #000000;
 
   margin-bottom: 112px;
@@ -82,31 +79,31 @@ div.container .text-box {
   margin-top: 55px;
 }
 
-div.text-box .sub-title{
+div.text-box .sub-title {
   font-family: 'Sculpin';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 28px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
 
-color: #000000;
+  color: #000000;
 
-margin-top: 24px;
+  margin-top: 24px;
 }
 
 div.text-box .sub-text {
   font-family: 'Sculpin';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 28px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
 
-color: #000000;
+  color: #000000;
 
-margin-top: 14px;
+  margin-top: 14px;
 }
 
-div.text-box .date{
+div.text-box .date {
   font-family: 'Sculpin';
   font-style: normal;
   font-weight: 500;
@@ -114,7 +111,7 @@ div.text-box .date{
   line-height: 43px;
   display: flex;
   align-items: center;
-  
+
   color: #000000;
 
   margin-top: 14px;
@@ -126,15 +123,14 @@ div.text-box .schedule {
   margin-top: 9px;
 }
 
-div.schedule .schedule-box{
+div.schedule .schedule-box {
   font-family: 'Sculpin';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 18px;
-display: flex;
-align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
 
-color: #000000;
-
+  color: #000000;
 }

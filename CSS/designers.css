@@ -1,0 +1,12 @@
+body#designers-page {
+  background-color: #002A21;
+}
+
+body#designers-page .header * .tag {
+  color: #FFFFFF;
+}
+
+body#designers-page .footer * .item{
+  color: #FFFFFF;
+}
+

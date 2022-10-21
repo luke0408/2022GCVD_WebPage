@@ -87,7 +87,9 @@ div.sub_text-kor .b-kor {
 }
 
 div#about_main {
+  position: relative;
   background: #000000;
+  color: #FFFFFF;
 }
 
 div#about_main * .content {
@@ -118,8 +120,6 @@ div.content-box .title-one {
   display: flex;
   align-items: center;
   text-align: center;
-
-  color: #FFFFFF;
 
   margin-bottom: 39px;
 }
@@ -181,4 +181,109 @@ div.content-box .text-tag2 {
   text-align: center;
 
   color: #FFFFFF;
+}
+
+div.container3 .left_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+div.left_box .text {
+  font-family: 'Sculpin';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+margin-top: 55px;
+}
+
+div.left_box .date {
+  font-family: 'Sculpin';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 43px;
+display: flex;
+align-items: center;
+
+margin-top: 68px;
+}
+
+div.left_box .schedule {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 242px;
+
+  margin-top: 43px;
+}
+
+div.schedule .schedule-box {
+  font-family: 'Sculpin';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+}
+
+div#logo {
+  margin-top: 160px;
+  margin-bottom: 132px;
+}
+
+div#logo .sub-title {
+  font-family: 'Sculpin';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+margin-top: 14.5px;
+}
+
+div.credit .space-between{
+  padding-top: 35px;
+  padding-bottom: 47px;
+}
+
+div.credit{
+  position: relative;
+  width: 470px;
+  margin: 300px 167px 0 auto;
+
+  font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+}
+
+div.credit * div {
+  margin-bottom: 19px;
+}
+
+div.credit * .point{
+  margin-bottom: 66px;
+}
+
+div.credit .title{
+  font-family: 'Sculpin';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 183.8%;
+
+margin-bottom: 43px;
+
+color: #EDFF00;
+}
+
+div.credit .sub-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 183.8%;
 }
