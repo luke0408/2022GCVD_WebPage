@@ -7,7 +7,7 @@ const body = document.getElementById("back");
 const titleList = [all, uxui, character, media];
 
 const path = [
-  "../images/gifs/Back-all.gif",
+  "../images/gifs/Back-all.gif?raw=true",
   "../images/gifs/Back-all.gif",
   "../images/gifs/Back-character.gif",
   "../images/gifs/Back-media.gif"
