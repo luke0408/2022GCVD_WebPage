@@ -119,6 +119,7 @@ div.text-box .date {
 
 div.text-box .schedule {
   display: flex;
+  justify-content: space-between;
   width: 305px;
   margin-top: 9px;
 }
