@@ -1,0 +1,35 @@
+html {
+  font-size: 62.5%;
+}
+
+body#watiting {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body#watiting .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 80vh;
+  max-height: 720px;
+  max-width: 720px;
+  width: 50vw;
+  border: 5px solid black;
+}
+
+body#watiting .container .title {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 7.2rem;
+  align-items: center;
+  color: #023D31;
+}
