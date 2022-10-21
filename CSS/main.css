@@ -1,7 +1,7 @@
 div.main .container{
   height: 800px;
   position: absolute;
-  background-image: url('../images/gifs/main_logo.gif');
+  background-image: url('https://media.githubusercontent.com/media/luke0408/2022GCVD_WebPage/main/images/gifs/main_logo.gif');
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body#home_page .footer{
 
 div.content {
   height: 90%;
-  background-image: url('../images/gifs/main_title.gif');
+  background-image: url('https://media.githubusercontent.com/media/luke0408/2022GCVD_WebPage/main/images/gifs/main_title.gif');
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;

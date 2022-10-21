@@ -7,10 +7,10 @@ const body = document.getElementById("back");
 const titleList = [all, uxui, character, media];
 
 const path = [
-  "../images/gifs/Back-all.gif?raw=true",
-  "../images/gifs/Back-all.gif",
-  "../images/gifs/Back-character.gif",
-  "../images/gifs/Back-media.gif"
+  "https://media.githubusercontent.com/media/luke0408/2022GCVD_WebPage/main/images/gifs/Back-all.gif",
+  "https://media.githubusercontent.com/media/luke0408/2022GCVD_WebPage/main/images/gifs/Back-all.gif",
+  "https://media.githubusercontent.com/media/luke0408/2022GCVD_WebPage/main/images/gifs/Back-character.gif",
+  "https://media.githubusercontent.com/media/luke0408/2022GCVD_WebPage/main/images/gifs/Back-media.gif"
 ];
 
 function hover(path_url, tagList){
