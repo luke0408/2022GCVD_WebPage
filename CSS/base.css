@@ -68,7 +68,13 @@ a {
 }
 
 @media screen and (max-width: 1200px){
-  .container{
+  .container {
     max-width: 812px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    max-width: 588px;
   }
 }

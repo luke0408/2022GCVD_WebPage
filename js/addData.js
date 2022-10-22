@@ -26,14 +26,15 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 const docData = {
+  
 };
 
 function addDate() {
-  const target = doc(db, "projects_main", "곽동규");
+  const target = doc(db, "projects_main", docData.name);
   setDoc(target, docData);
 }
 
 btn.onclick = () => {
   addDate();
-  console.log("ok");
+  console.log(docData);
 };

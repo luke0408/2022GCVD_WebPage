@@ -24,9 +24,7 @@ img.media-buttom {
   opacity: 0;
   width: 100%;
   height: 100vh;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  background-position: center;
+  background-position: center ;
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 9;
@@ -47,6 +45,7 @@ div#project_main{
 div#project_main .container{
   margin: auto;
 }
+
 
 div#project_main * .title_box{
   position: relative;
@@ -119,10 +118,36 @@ div.back_to_top{
   img.media-buttom {
     content: url('../images/icons/Vector\ 33_L.png');
   }
+}
 
-  .gif {
-    height: 100vh;
-    background-size: auto 200vh;
-    background-position: 20% 20%;
+@media screen and (max-width: 900px) {
+  .title_tag {
+    font-size: 41px;
+    line-height: 49px;
+  }
+
+  div#project_main * .title_box {
+    height: 57px;
+    margin-bottom: 20px;
+  }
+
+  img.all-buttom {
+    width: 96.5px;
+    height: 30px;
+  }
+
+  img.uxui-buttom {
+    width: 412.5px;
+    height: 30px;
+  }
+
+  img.ill-buttom {
+    width: 536px;
+    height: 30px;
+  }
+
+  img.media-buttom {
+    width: 389.5px;
+    height: 30px;
   }
 }

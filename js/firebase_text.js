@@ -1,5 +1,10 @@
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
-  import { getFirestore, addDoc, collection, getDocs } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-firestore.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
+import { getFirestore, collection, getDocs, query, where } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-firestore.js";
+
+const projectCard = document.querySelectorAll(".project-grid > .project-card");
+const projectThumbnail = document.querySelectorAll(".thumbanil");
+const projectName = document.getElementsByClassName("name");
+const projectTitle = document.getElementsByClassName("project-title");
 
 const firebaseConfig = {
   apiKey: "AIzaSyCWbw_Dj0A3nm73xVZEeFQ5XlRSbE4SDnM",
@@ -17,7 +22,21 @@ const app = initializeApp(firebaseConfig);
 // Initialize Cloud Firestore and get a reference to the service
 const db = getFirestore(app);
 
-const querySnapshot = await getDocs(collection(db, "projects_main"));
-querySnapshot.forEach((doc) => {
-  console.log(doc.id, "=>", doc.data());
+const citiesRef = collection(db, "projects_main");
+
+projectCard.forEach(async (el, index) => {
+  const getDataQuery = query(citiesRef, where("index", "==", index));
+  const thumbnailSnapshot = await getDocs(getDataQuery);
+
+  thumbnailSnapshot.forEach((doc) => {
+    let thumbnail = doc.data().thumbnail;
+    let name = doc.data().name;
+    let title = doc.data().title;
+
+    if (thumbnail != '') {
+      projectThumbnail[index].src = thumbnail;
+    }
+    projectName[index].innerText = name;
+    projectTitle[index].innerText = title;
+  });
 });

@@ -49,3 +49,70 @@ a.project-card .text-box .project-title {
 
   color: #023D31;
 }
+
+@media screen and (max-width: 1200px){
+  div.header {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .hi-84 {
+    height: 56px;
+  }
+
+  div.title_box .title_tag {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  img.type-b {
+    width: 812px;
+    height: 32px;
+  }
+
+  img.p-b-188 {
+    width: 812px;
+    height: 49px;
+    padding-bottom: 128px;
+  }
+
+  div.title_boxs {
+    height: 76.5px;
+    margin-bottom: 44px;
+  }
+
+  div.title_boxs .uxui {
+    width: 522px;
+    height: 40px;
+  }
+
+  div.title_boxs .character {
+    width: 673px;
+    height: 40px;
+  }
+
+  div.title_boxs .media {
+    width: 492px;
+    height: 40px;
+  }
+
+  div.hi-322{
+    height: 275px;
+  }
+
+  div.projects-All .title_box {
+    height: 93px;
+    margin-bottom: 32px;
+  }
+
+  div.project-grid {
+    gap: 19px;
+    row-gap: 34px;
+    grid-template-columns: repeat(3, 258px);
+    padding-bottom: 59px;
+  }
+
+  a.project-card .thumbanil {
+    width: 258px;
+    height: 210px;
+  }
+}
