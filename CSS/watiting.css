@@ -21,8 +21,6 @@ body#watiting .container {
 }
 
 body#watiting .container .title {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
   font-weight: 900;
   font-size: 50px;
   line-height: 72px;
@@ -40,9 +38,6 @@ div.container .instar {
 }
 
 a.instar .instar-text {
-  font-family: 'Sculpin';
-  font-style: normal;
-  font-weight: 400;
   font-size: 30px;
   line-height: 36px;
 
@@ -60,16 +55,11 @@ a.instar img {
 }
 
 body#watiting .container .text {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 400;
   font-size: 30px;
   line-height: 43px;
   display: flex;
   align-items: center;
   text-align: center;
-
-  color: #000000;
 
   margin-bottom: 112px;
 }
@@ -80,32 +70,21 @@ div.container .text-box {
 }
 
 div.text-box .sub-title {
-  font-family: 'Sculpin';
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
-
-  color: #000000;
 
   margin-top: 24px;
 }
 
 div.text-box .sub-text {
-  font-family: 'Sculpin';
-  font-style: normal;
-  font-weight: 400;
   font-size: 15px;
   line-height: 18px;
-
-  color: #000000;
 
   margin-top: 14px;
 }
 
 div.text-box .date {
-  font-family: 'Sculpin';
-  font-style: normal;
   font-weight: 500;
   font-size: 36px;
   line-height: 43px;
@@ -125,13 +104,6 @@ div.text-box .schedule {
 }
 
 div.schedule .schedule-box {
-  font-family: 'Sculpin';
-  font-style: normal;
-  font-weight: 400;
   font-size: 15px;
   line-height: 18px;
-  display: flex;
-  align-items: center;
-
-  color: #000000;
 }

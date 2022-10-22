@@ -26,8 +26,6 @@ div#about_text .container2 {
 }
 
 div.right_text {
-  font-family: 'Sculpin';
-  font-style: normal;
   font-weight: 700;
   font-size: 80px;
   line-height: 96px;
@@ -43,8 +41,6 @@ div.left_text {
 }
 
 div.left_text .sub_title {
-  font-family: 'Sculpin';
-  font-style: normal;
   font-weight: 500;
   font-size: 36px;
   line-height: 43px;
@@ -59,8 +55,6 @@ div.left_text div {
 }
 
 div.left_text .sub_text-kor {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 23px;
@@ -71,19 +65,12 @@ div.left_text .sub_text-kor {
 }
 
 div.left_text .sub_text-eng {
-  font-family: 'Sculpin';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   display: flex;
   align-items: center;
 
   color: #023D31;
-}
-
-div.sub_text-kor .b-kor {
-  font-family: 'Sculpin';
 }
 
 div#about_main {
@@ -112,8 +99,6 @@ div.content .content-box .text-box {
 }
 
 div.content-box .title-one {
-  font-family: 'Sculpin';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 43px;
@@ -125,8 +110,6 @@ div.content-box .title-one {
 }
 
 div.content-box .text-tag {
-  font-family: 'Noto Sans CJK KR';
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;
@@ -141,8 +124,6 @@ div.content-box .text-tag {
 }
 
 div.content-box .text-content {
-  font-family: 'Noto Sans CJK KR';
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;
@@ -156,8 +137,6 @@ div.content-box .text-content {
 }
 
 div.content-box .title-two {
-  font-family: 'Sculpin';
-  font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 38px;
@@ -171,9 +150,6 @@ div.content-box .title-two {
 }
 
 div.content-box .text-tag2 {
-  font-family: 'Noto Sans CJK KR';
-  font-style: normal;
-  font-weight: 400;
   font-size: 15px;
   line-height: 22px;
   display: flex;
@@ -190,9 +166,6 @@ div.container3 .left_box{
 }
 
 div.left_box .text {
-  font-family: 'Sculpin';
-font-style: normal;
-font-weight: 400;
 font-size: 24px;
 line-height: 29px;
 display: flex;
@@ -202,8 +175,6 @@ margin-top: 55px;
 }
 
 div.left_box .date {
-  font-family: 'Sculpin';
-font-style: normal;
 font-weight: 500;
 font-size: 36px;
 line-height: 43px;
@@ -223,9 +194,6 @@ div.left_box .schedule {
 }
 
 div.schedule .schedule-box {
-  font-family: 'Sculpin';
-font-style: normal;
-font-weight: 400;
 font-size: 15px;
 line-height: 18px;
 }
@@ -236,8 +204,6 @@ div#logo {
 }
 
 div#logo .sub-title {
-  font-family: 'Sculpin';
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 24px;
@@ -255,9 +221,6 @@ div.credit{
   width: 470px;
   margin: 300px 167px 0 auto;
 
-  font-family: 'Noto Sans KR';
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 23px;
 }
@@ -271,8 +234,6 @@ div.credit * .point{
 }
 
 div.credit .title{
-  font-family: 'Sculpin';
-font-style: normal;
 font-weight: 700;
 font-size: 32px;
 line-height: 183.8%;

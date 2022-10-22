@@ -3,12 +3,29 @@ body#projects_page{
   z-index: 1;
 }
 
+img.all-buttom {
+  content: url('../images/icons/Vector 30.png');
+}
+
+img.uxui-buttom {
+  content: url('../images/icons/Vector\ 31.png');
+}
+
+img.ill-buttom {
+  content: url('../images/icons/Vector\ 32.png');
+}
+
+img.media-buttom {
+  content: url('../images/icons/Vector\ 33.png');
+}
+
 .gif {
   position: absolute;
   opacity: 0;
   width: 100%;
   height: 100vh;
   overflow-y: hidden;
+  overflow-x: hidden;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -73,4 +90,39 @@ div.back_to_top{
   bottom: 7vh;
   right: 1.6rem;
   z-index: 30;
+}
+
+@media screen and (max-width: 1200px){
+
+  div#project_main * .title_box {
+    height: 67.68px;
+    margin-bottom: 24px;
+  }
+
+  .title_tag {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  img.all-buttom {
+    content: url('../images/icons/Vector\ 30_L.png');
+  }
+
+  img.uxui-buttom {
+    content: url('../images/icons/Vector\ 31_L.png');
+  }
+
+  img.ill-buttom {
+    content: url('../images/icons/Vector\ 32_L.png');
+  }
+
+  img.media-buttom {
+    content: url('../images/icons/Vector\ 33_L.png');
+  }
+
+  .gif {
+    height: 100vh;
+    background-size: auto 200vh;
+    background-position: 20% 20%;
+  }
 }

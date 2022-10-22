@@ -1,4 +1,4 @@
-div#project-detail .container{
+div#project-detail .container {
   position: relative;
   max-width: 1120px;
   margin: 0 auto;
@@ -13,4 +13,148 @@ div.container .space-between {
   position: relative;
   max-width: 1120px;
   width: 100%;
+  margin-top: 150px;
+  margin-bottom: 190px;
+}
+
+div.space-between .right-box {
+  width: 50%;
+}
+
+div.right-box .main_text {
+  font-size: 15px;
+  line-height: 32px;
+}
+
+div.left-box .title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  margin-bottom: 16px;
+}
+
+div.left-box .designers {
+  display: flex;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+
+  margin-bottom: 73px;
+}
+
+div.designers .two {
+  margin-left: 0.5rem;
+}
+
+div.left-box .character-tag {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+iframe#vimeo {
+  width: 1120px;
+  height: 630px;
+  border: none;
+  background-image: url(../images/icons/IMAGE_1120X627.png);
+  margin-bottom: 160px;
+}
+
+img.main_content {
+  width: 1120px;
+  margin-bottom: 80px;
+}
+
+div.container .profile-top {
+  width: 1120px;
+  height: 41px;
+}
+
+div.container .profile-buttom {
+  float: right;
+  width: 441px;
+  height: 62px;
+}
+
+div#profile {
+  padding-bottom: 524px;
+}
+
+div#profile .content {
+  margin-top: 80px;
+  margin-bottom: 169px;
+  width: 1049px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div#profile .content .box {
+  width: 482px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.box .name {
+font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+
+margin-bottom: 2px;
+}
+
+div.box .engname {
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+
+margin-bottom: 60px;
+}
+
+div.box .contact {
+font-size: 12px;
+line-height: 14px;
+
+color: #545353;
+
+margin-bottom: 19px;
+}
+
+div.box .email {
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+margin-bottom: 10px;
+}
+
+div.box .phon {
+  font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+}
+
+div#profile .content * img {
+  width: 230px;
+  height: 302px;
+}
+
+img.left-arrow {
+  position: absolute;
+  left: 0;
+  top: 328.5px;
+  height: 50px;
+}
+
+img.right-arrow {
+  position: absolute;
+  right: 0;
+  top: 328.5px;
+  height: 50px;
+}
+
+div.arrow-box {
+  position: relative;
+  max-width: 1341px;
+  margin: 0 auto;
 }
