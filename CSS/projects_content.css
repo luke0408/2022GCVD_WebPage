@@ -25,11 +25,12 @@ div.project-grid {
 }
 
 div.project-grid .project-card {
+  display: none;
   position: relative;
 }
 
 a.project-card img {
-  padding-bottom: 13px;
+  margin-bottom: 13px;
 }
 
 a.project-card .text-box .name {

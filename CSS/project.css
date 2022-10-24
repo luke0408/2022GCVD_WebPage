@@ -30,6 +30,12 @@ img.media-buttom {
   z-index: 9;
 }
 
+img.thumbanil {
+  height: 220px;
+  width: 270px;
+  background-color: #000000;
+}
+
 a.all {
   width: min-content;
   margin-right: auto;
@@ -84,8 +90,11 @@ div.title_boxs img {
 div.back_to_top{
   position: fixed;
   cursor: pointer;
-  width: 73px;
+  display: flex;
+  width: 108px;
   height: 73px;
+  align-items: center;
+  justify-content: center;
   bottom: 7vh;
   right: 1.6rem;
   z-index: 30;
