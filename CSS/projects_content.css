@@ -1,4 +1,5 @@
 body#projects_content-page {
+  width: 100vw;
   background-color: #FFFFFF;
 }
 
@@ -115,5 +116,55 @@ a.project-card .text-box .project-title {
   a.project-card .thumbanil {
     width: 258px;
     height: 210px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  div.project-grid {
+    gap: 20px;
+    row-gap: 30px;
+    grid-template-columns: repeat(3, 183px);
+    padding-bottom: 59px;
+  }
+
+  a.project-card .thumbanil {
+    width: 183px;
+    height: 149px;
+  }
+
+  div.title_box .title_tag {
+    font-size: 41px;
+    line-height: 49px;
+  }
+
+  img.type-b {
+    width: 588px;
+    height: 24px;
+  }
+
+  img.p-b-188 {
+    width: 588px;
+    height: 35px;
+    padding-bottom: 93px;
+  }
+
+  div.title_boxs {
+    height: 58px;
+    margin-bottom: 20px;
+  }
+
+  div.title_boxs .uxui {
+    width: 412.5px;
+    height: 30px;
+  }
+
+  div.title_boxs .character {
+    width: 556.16px;
+    height: 30px;
+  }
+
+  div.title_boxs .media {
+    width: 389.5px;
+    height: 30px;
   }
 }

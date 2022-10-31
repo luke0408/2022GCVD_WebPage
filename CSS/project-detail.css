@@ -21,7 +21,7 @@ div.one:nth-child(2) {
   display: none;
 }
 
-div.box:nth-child(2){
+div.box:nth-child(2) {
   visibility: hidden;
 }
 
@@ -105,42 +105,42 @@ div#profile .content .box {
 }
 
 div.box .name {
-font-weight: 700;
-font-size: 20px;
-line-height: 29px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
 
-margin-bottom: 2px;
+  margin-bottom: 2px;
 }
 
 div.box .engname {
-font-weight: 500;
-font-size: 12px;
-line-height: 14px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
 
-margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 div.box .contact {
-font-size: 12px;
-line-height: 14px;
+  font-size: 12px;
+  line-height: 14px;
 
-color: #545353;
+  color: #545353;
 
-margin-bottom: 19px;
+  margin-bottom: 19px;
 }
 
 div.box .email {
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
 
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 div.box .phon {
   font-weight: 500;
-font-size: 14px;
-line-height: 17px;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 div#profile .content * img {
@@ -169,3 +169,79 @@ div.arrow-box {
   max-width: 1341px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1200px) {
+  div#project-detail .container {
+    max-width: 812px;
+  }
+
+  div#project-detail .container .banner {
+    width: 812px;
+    height: 406px;
+  }
+
+  iframe#vimeo {
+    width: 812px;
+    height: 360px;
+    margin-bottom: 30px;
+  }
+
+  img.main_content {
+    width: 812px;
+    margin-bottom: 134px;
+  }
+
+  div.container .profile-top {
+    display: none;
+  }
+
+  div.container .profile-buttom {
+    display: none;
+  }
+
+  div#profile .content {
+    margin-top: 80px;
+    margin-bottom: 169px;
+    width: 812px;
+    margin-bottom: 370px;
+  }
+
+  img.left-arrow,
+  img.right-arrow {
+    top: 220px;
+    height: 36px;
+    z-index: 30;
+  }
+
+  div.arrow-box {
+    max-width: 800px;
+  }
+
+  div#profile .content * img {
+    width: 126px;
+    height: 139px;
+  }
+
+  div.box .name {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  div.box .engname {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  div.box .contact,
+  div.box .email,
+  div.box .phon {
+    visibility: hidden;
+  }
+
+  div#profile .content .box {
+    width: 340px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {}

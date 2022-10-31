@@ -26,8 +26,9 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 const docData = {
-  index: 58,	team: false,	first: "ㅎ",	name: "한서경",	engname: "Han Seogyeong",	student_number: 201736899,	tag: "UXUI&Branding",				profile: "https://drive.google.com/uc?export=view&id=1oLOj24-kGtsndjznUHR5JG0obq4FzPik",		phone:"",	email: "haneden.999@gmail.com",	title: "아워오브젝트",	sub_tilte: "지속가능한 삶을 지향하는 라이프스타일 브랜드",	text: "[보다 오래, 함께 - 우리가 사랑할 오브젝트] 아워오브젝트는 지속가능한 삶을 지향하는 라이프스타일 브랜드입니다. 지속가능성은 우리 모두의 삶의 방식으로 자리잡 아갈 뉴노멀 라이프스타일입니다. 아워오브젝트는 보다 오래 함께 하는 삶을 통해 나와 사랑하는 사람들, 지구 모든 존재의 내일을 만들어갑니다. 실용적이고 견고한 오브젝트를 통해 가치를 실현하며, 재미있는 시각으로 세상의 다양한 존재들을 탐색해 사랑스러운 스토리를 더합니다. 일상 한켠에서 오랜 시간을 함께하며 느끼는 따뜻함, 애착의 경험은 개인의 삶에서 소중한 의미를 찾게 돕고 나아가 우리 모두의 행복한 내일을 만들어갑니다.",
-};
+  index: 21,	team: true,	first: "ㅇ",	name: "이소연",	engname: "Lee Soyeon",	student_number: 201836558,	tag: "UXUI&Branding",	thumbnail: "https://drive.google.com/uc?export=view&id=1fJ3MsK0LGy3RNQYmZ7FnRiysPgDRE-YE",	header: "https://drive.google.com/uc?export=view&id=1ysy8Rsrnxb89qJL61PEAQhFaILbwKqOk",	content: "https://drive.google.com/uc?export=view&id=17FR4tqV3BSWRm2Bibd6Z8mUKSD-TaAVk",	profile: "https://drive.google.com/uc?export=view&id=10HfzxmnhX6O8ByeTg3D07TnrHEC94Pkw",		phone: "010-2741-1382",	email: "owo22550@gmail.com",	title: "디폼",	sub_tilte: "어글리 푸드 리퍼브 브랜드",	text: "어글리 푸드로 푸드 리퍼브를 지향하는 친환경 브랜드 <디폼 >은 Different+Form의 합성어이다. 브랜드 슬로건은 '틀림 없 는 다름'으로 어글리 푸드에 대한 고정관념과 미적 기준을 바 꾸겠다는 뜻이 담겨있다. <디폼>은 생산자와 소비자 그리고 자연이 함께 살아가는 사회를 위해 기존의 시장 유통 구조를 개선했다. 또한 어글리 푸드가 생소한 소비자들에게 다가가기 위해 브랜드 스토어를 오픈했다. 이곳에서는 어글리 푸드를 직 접 보고 구매할 수 있으며 어글리 푸드를 활용하여 만든 간단 한 음식을 먹어볼 수 있다. 소비자는 브랜드를 통해 폐기 농산 물에 대해 다시 한 번 생각해보는 기회를 가진다.", team_order : 1
+}
+
 
 function addDate() {
   const target = doc(db, "projects_main", docData.name);
